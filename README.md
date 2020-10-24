@@ -3,4 +3,4 @@
 - .NET Core 3.1
 - Entity Framework Core 3.1
 ## Contact
-- Email: tranthuan406@gmail.com
+- Email: tranthuan0406@gmail.com
