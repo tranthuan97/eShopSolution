@@ -14,5 +14,12 @@ namespace eShopSolution.Data.Entities
         //cho phép null nếu có ? đằng sau kiểu dữ liệu
         public int? ParentId { get; set; }
         public Status Status { get; set; }
+
+
+        //kết nôsi 2 bảng
+        public List<ProductInCategory> ProductInCategories { get; set; }
+
+        public List<CategoryTranslation> CategoryTranslations { get; set; }
+
     }
 }
