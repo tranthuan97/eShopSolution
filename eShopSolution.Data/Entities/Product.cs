@@ -17,7 +17,7 @@ namespace eShopSolution.Data.Entities
         //kết nối 2 bảng
         public List<ProductInCategory> ProductInCategories { get; set; }
         public List<OrderDetail> OrderDetails { get; set; }
-
+        public List<Cart> Carts { get; set; }
         public List<ProductTranslation> ProductTranslations { get; set; }
     }
 }
